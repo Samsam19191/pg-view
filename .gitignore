@@ -1,6 +1,58 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Java / Maven
 /target/
-.settings
+*.class
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# IDE - Eclipse
+.settings/
 .classpath
 .project
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code
+.vscode/
+
+# Logs
 /logs/
+*.log
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Datasets (large files - download separately)
+experiment/dataset/sources/
+experiment/dataset/targets/
+
+# Database snapshots
+experiment/db_snapshot/
+
+# Experiment results
+experiment/results/
+
+# Archives
+*.tar
+*.tar.gz
+*.tar.zst
+*.zip
